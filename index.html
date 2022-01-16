@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="images/Dev/Cityscape_Footer.png" type="image/png">
+        <title>Olive Serviced Apartment</title>
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/abc62f7ecd.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- header of body -->
+        <header>
+            <!-- navigation bar default -->
+            <div id="nav-bar">
+                <ul>
+                    <!-- mentioning cities -->
+                    <li>
+                        <span>
+                            <!-- <label for="cities">CITIES</label> -->
+                            <select name="cities" id="cities">
+                            <option >Cities</option>
+                            <option value="Delhi">Delhi</option>
+                            </select>
+                        </span>
+                    </li>
+                    <!-- contact number -->
+                    <li>
+                        <span>
+                            <i class="fas fa-phone-alt"></i> 92345678892
+                        </span>
+                    </li>
+                    <!-- Logo -->
+                    <li>
+                        <span>
+                            <img src="images/Dev/OLIVE-Logo.png">
+                        </span>
+                    </li>
+                    <!-- register link -->
+                    <li>
+                        <span>
+                            <a class="prevent"  href="#register-form">Register</a>
+                        </span>
+                    </li>
+                    <!-- login link -->
+                    <li>
+                        <span>
+                            <a class="prevent"  href="#login-form">
+                                <button>LOGIN</button>
+                            </a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <!-- // -->
+
+
+
+            <!-- middle segment of header -->
+            <div id="header-middle">
+                <div id="remark-1">
+                    Value for money
+                </div>
+                <h3>Find your perfect </h3>
+                <h1>
+                    Serviced <br/> Apartment
+                </h1>
+
+                <!-- search engine -->
+                <div id="apartment-search">
+                    <!-- search city -->
+                    <div>
+                        <i class="fas fa-search"></i>
+                        <!-- drop down menu for apartments -->
+                        <label for="cities">LOCATIONS</label><br/>
+                        <select name="cities" id="cities" placeholder="Select City">
+                            <option value="Delhi">Delhi</option>
+                        </select>
+                    </div>
+                    <!-- select check in date -->
+                    <div class="calendar">
+                        <label>CHECK IN</label><br/>
+                        <input type="date"></i>
+                    </div>
+                    <!-- select check out date -->
+                    <div class="calendar">
+                        <label>CHECK OUT</label><br/>
+                        <input type="date"></i>
+                    </div>
+                    <!-- search icon -->
+                    <div id="search-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- // -->
+
+
+            <!-- end of header -->
+            <div id="header-end">
+                <span>
+                    <i class="fas fa-arrow-down"></i>
+                </span>
+            </div>
+        </header>
+
+
+                <!-- main area of web page -->
+                <main>
+                    <!-- about section -->
+                    <section id="heading-one">
+                        <h1>
+                            Hotel... Vacation Rental...
+                            <br/>
+                            We Are The Best For Both Words
+                        </h1>
+
+                        <p>
+                          Located in the best downtown neighborhoods, Olive’s upscale travel apartments offer the space <br>and amenities of a vacation rental combined with the quality and consistency of a boutique hotel.
+                          <br>For your next trip, let us be “Your place in the city.”
+                        </p>
+                    </section>
+
+                    <!-- preferred location section -->
+                    <section id="location">
+                        <h1>
+                            Browse By Location
+                        </h1>
+
+                        <div id="location-container">
+                            <ul>
+                            </ul>
+                        </div>
+
+                        <div id="banner">
+                            <span>
+                                <i class="fas fa-home"></i>
+                                <h2>500+</h2>
+                                <p>Apartments in selected location</p>
+                            </span>
+                            <span>
+                                <i class="far fa-check-square"></i>
+                                <h2>Best</h2>
+                                <p>Rates guranteed with special offer</p>
+                            </span>
+                            <span>
+                                <i class="far fa-user"></i>
+                                <h2>24x7</h2>
+                                <p>Excellent support for hospitality</p>
+                            </span>
+                        </div>
+                    </section>
+
+                    <!-- feature section -->
+                    <section id="features">
+                        <h1>
+                            Why Olive?
+                        </h1>
+                        <ul>
+                        </ul>
+                    </section>
+
+
+                    <!-- delight section -->
+                    <section id="delight">
+                        <h1>
+                            Let us Delight you
+                        </h1>
+
+                        <ul>
+                            <div id="remark-2">
+                                So many choices
+                            </div>
+                            <li>
+                                <div class="delight-image">
+                                    <img src="images/Dev/Let us delight you/Delight_1.jpg" alt="">
+                                </div>
+                                <div class="delight-content">
+                                    <h3>
+                                        Book Direct
+                                    </h3>
+                                    <ul>
+                                        <li>You get the Guaranteed BEST PRICE!</li>
+                                        <li>No extra Credit Card charges.</li>
+                                        <li>Immediate Confirmation.</li>
+                                        <li>100% Secure</li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="delight-content">
+                                    <h3>
+                                        Secure Payments
+                                    </h3>
+                                    <ul>
+                                        <li>100% Secure Booking Process – your details are safe and protected by a 128/256 bit encrypted SSL connection </li>
+                                        <li>100% Confirmed Bookings – No unpleasant surprises or communication errors</li>
+                                    </ul>
+                                </div>
+                                <div class="delight-image">
+                                    <img src="images/Dev/Let us delight you/Delight_2.jpg" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="delight-image">
+                                    <img src="images/Dev/Let us delight you/Delight_3.jpg" alt="">
+                                </div>
+                                <div class="delight-content">
+                                    <h3>
+                                      SPECIAL REQUESTS
+                                    </h3>
+                                    <ul>
+                                        <li>Any special requests from guest are handled better when you book directly with us</li>
+                                        <li>Free upgrades on availability.</li>
+                                        <li>Free Wi-FI.</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <div id="remark-3">
+                                No extra cost
+                            </div>
+                            <li>
+                                <div class="delight-content">
+                                    <h3>
+                                      LOYALTY AWARDS
+                                    </h3>
+                                    <ul>
+                                        <li>Special deals for repeated guests </li>
+                                        <li>Guaranteed best Rates, availability and latest Promotions </li>
+                                        <li>Early Check-In & Late Check-Out for regular guests</li>
+                                    </ul>
+                                </div>
+                                <div class="delight-image">
+                                    <img src="images/Dev/Let us delight you/Delight_2.jpg" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <!-- blog section -->
+                    <section id="blogs">
+                        <h1>
+                            Blogs
+                        </h1>
+                        <ul>
+                            <li>
+                                <img src="images/Dev/Blogs/Blog_1.jpg">
+                                <div>
+                                    <h5>
+                                        Serviced Apartments
+                                    </h5>
+                                    <p>
+                                        <a class="prevent"  href="#">Read More <i class="fas fa-arrow-right"></i></a>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="images/Dev/Blogs/Blog_2.jpg">
+                                <div>
+                                    <h5>
+                                        The Perfect Travel
+                                    </h5>
+                                    <p>
+                                        <a class="prevent"  href="#">Read More <i class="fas fa-arrow-right"></i></a>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="images/Dev/Blogs/Blog_3.jpg">
+                                <div>
+                                    <h5>
+                                        Complete Privacy
+                                    </h5>
+                                    <p>
+                                        <a class="prevent"  href="#">Read More <i class="fas fa-arrow-right"></i></a>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <!-- review section -->
+                    <section id="review">
+                        <h1>
+                            What People Say About Olive
+                        </h1>
+                        <!-- remark -->
+                        <div id="remark-4">
+                            Thousands of Happy Customers
+                        </div>
+                        <!-- review section  -->
+                        <div class="container">
+
+
+                        <!-- corousel reviews -->
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                        <div class="col-md-12">
+                          <div class="row">
+                                <div class="col-md-6 pad-r-0">
+                                    <br/>
+                                        <div class="vt-align contentbox">
+                                            <p style="color: #fff;">★★★★★</p>
+                                            <p>We saw a lot of apartments before finally choosing Olive as it had a complete kitchen which was very important to us, besides offering complete privacy without any nosy landlords. The terrace was a bonus and they were kind enough ton provide us with a couple of yoga mats we all. Special mention for Raju who is an absolute gem and knows the true meaning of hospitality.
+                                            </p>
+                                            <h3>Jill Williams</h3>
+                                            <h4 style="font-weight:300">Dubai</h4>
+                                      </div>
+                                        <br><br>
+
+                                </div>
+
+                               <div class="col-md-6 pad-l-0 deskview">
+                                 <div class="testimonial-img fl-100">
+                                   <br>
+                                   <img class="d-block w-100" src="images/Dev/Category_IMG_2.jpg" class="review-img w-100" alt="...">
+                                   <br>
+                                 </div>
+                               </div>
+
+
+                              </div>
+
+
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
+                    </section>
+                </main>
+
+
+
+                <!-- footer of body -->
+                <footer>
+                    <!-- information -->
+                    <div id="footer-info">
+                        <!-- company logo and social accounts -->
+                        <span id="logo-accounts">
+                            <img src="images/Dev/OLIVE-Logo-Footer.png"><br/>
+                            <!-- social accounts list -->
+                            <ul id="social-accounts">
+                                <li>
+                                    <i class="fab fa-facebook-square"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-twitter"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-google-plus-g"></i>
+                                </li>
+                            </ul>
+                        </span>
+
+                        <!-- entire home -->
+                        <span class="footer-list">
+                            <ul id="entire-home-list">
+                                <li>
+                                    <h6>Entire home</h6>
+                                    <div class="cities-list">
+                                    <p>Banglore</p>
+                                    <p>Delhi</p>
+                                    <p>Gurgaon</p>
+                                    <p>Hyderabad</p>
+                                    <p>Jaipur</p>
+                                    <p>Kolkata</p>
+                                    <p>Noida</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </span>
+
+                        <!-- Top Destination -->
+                        <span class="footer-list">
+                            <ul id="top-dest-list">
+                                <li>
+                                    <h6>Top Destination</h6>
+                                    <div class="cities-list">
+                                    <p>Noida</p>
+                                    <p>Delhi</p>
+                                    <p>Jaipur</p>
+                                    <p>Gurgaon</p>
+                                    <p>Hyderabad</p>
+                                    <p>Kolkata</p>
+                                    <p>Banglore</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </span>
+
+                        <!-- Company Info -->
+                        <span class="footer-list">
+                            <ul id="company-info">
+                                <li>
+                                    <h6>Company Info</h6>
+                                    <div class="cities-list">
+                                    <p>About Us</p>
+                                    <p>Offer</p>
+                                    <p>Contact</p>
+                                    <p>Blog</p>
+                                    <p>Faq</p>
+                                    <p>Bookings</p>
+                                    <p>E-Book</p>
+                                    </div>
+
+                                </li>
+                            </ul>
+                        </span>
+
+                        <!-- Learn More -->
+                        <span class="footer-list">
+                            <ul id="learn-more-list">
+                                <li>
+                                    <h6>Learn More</h6>
+                                    <div class="cities-list">
+                                    <p>Terms & Conditions</p>
+                                    <p>Privacy Policy</p>
+                                    <p>Refund & Cancellations</p>
+                                    <p>Online Payment</p>
+                                    <p>Direct Payment</p>
+                                    <p>Lowest Price Guarantee</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </span>
+
+                    </div>
+
+                    <!-- image container -->
+                    <div id="img-container">
+                        <img src="images/Dev/Cityscape_Footer.png">
+                    </div>
+                </footer>
+                <script type="text/javascript" src="js/main_script.js"></script
+
+</body>
+
+</html>
